@@ -1,0 +1,14 @@
+# Exclure la base de données locale
+ferrari_f1.db
+
+# Exclure l'environnement virtuel Python
+venv/
+.venv/
+
+# Exclure fichiers temporaires
+__pycache__/
+*.pyc
+*.pyo
+*.log
+.DS_Store
+.env
