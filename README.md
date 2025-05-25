@@ -7,16 +7,6 @@ L'objectif est de construire un pipeline complet de data engineering :
 - Stockage relationnel structuré dans une base SQLite
 - Visualisation via un dashboard Streamlit interactif
 
-## Structure du projet
-
-ferrari_f1_db/
-├── etl_ferrari.py # Script de chargement historique complet (1950 à aujourd’hui)
-├── dashboard/
-│ └── app.py # Dashboard Streamlit interactif
-├── ferrari_f1.db # Base de données SQLite générée
-├── requirements.txt # Dépendances Python
-└── README.md
-
 ## Base de données
 
 La base `ferrari_f1.db` contient les tables suivantes :
