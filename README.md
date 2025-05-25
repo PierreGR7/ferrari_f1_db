@@ -1,3 +1,11 @@
+## Auteur
+
+Pierre Graef
+
+https://www.pierregraef.com/
+
+graef.pierre@gmail.com
+
 # Ferrari F1 Dashboard
 
 Ce projet propose un tableau de bord interactif des performances historiques de l'écurie Ferrari en Formule 1, basé sur les données publiques de l'API Ergast Developer.
@@ -28,6 +36,7 @@ Ce projet utilise SQLite comme moteur de base de données relationnelle. SQLite 
 
 ## Installation
 
+```bash
 git clone https://github.com/PierreGR7/ferrari_f1_db.git
 cd ferrari_f1_db
 python -m venv venv
@@ -35,10 +44,3 @@ source venv/bin/activate
 pip install -r requirements.txt
 python etl_ferrari.py
 streamlit run dashboard/app.py
-
-## Auteur
-
-Pierre Graef
-https://www.pierregraef.com/
-graef.pierre@gmail.com
-
