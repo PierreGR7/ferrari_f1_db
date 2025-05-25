@@ -5,7 +5,8 @@ import pandas as pd
 st.set_page_config(page_title="Ferrari F1 Dashboard", layout="wide")
 
 # Connexion base SQLite
-conn = sqlite3.connect('/mnt/c/Users/pierr/ferrari_f1_db/ferrari_f1.db')
+conn = sqlite3.connect('../ferrari_f1.db')
+
 
 st.title("🏎️ Ferrari en Formule 1 – Tableau de bord historique")
 
